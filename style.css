@@ -1,6 +1,8 @@
 header {
     text-align: center;
-    padding: 2rem;
+    padding: 3rem;
+background-color: rgba(30, 41, 59, 0.8);
+border-bottom: 2px solid #38bdf8;
 }
 section {
     padding: 2rem;
@@ -18,13 +20,50 @@ section div {
 }
 section {
     text-align: center;
+    padding: 3rem;
+    background-color: rgba(30, 41, 59, 0.8);
+    margin: 1rem;
+    border-radius: 10px;
 }
 section div {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin: 1rem auto;
+    background-color: rgba(30, 41, 59, 0.9);
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1.5rem auto;
     max-width: 500px;
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.3);
 }
 body {
     background-color: #f4f4f4;
+}
+body {
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #e2e8f0;
+    font-family: Arial, sans-serif;
+}
+details {
+    margin: 1rem auto;
+    max-width: 600px;
+    background-color: rgba(30, 41, 59, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+summary {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #38bdf8;
+}
+details p {
+    margin-top: 0.5rem;
+}
+.dropdown-row {
+    display: Flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.dropdown-row details {
+    width: 250px;
 }
