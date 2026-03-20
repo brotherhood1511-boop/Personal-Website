@@ -66,4 +66,32 @@ details p {
 }
 .dropdown-row details {
     width: 250px;
+    transition: all 0.3 ease;
+}
+.dropdown-row details:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgba(56, 189, 248, 0.6);
+}
+details[open] {
+    box-shadow: 0 0 20px rgba(59, 189, 248, 0.4);
+}
+.dropdown-row summary {
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+.projects-container {
+    display: flex;
+    gap:20px;
+    justify-content: center;
+}
+.project-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
