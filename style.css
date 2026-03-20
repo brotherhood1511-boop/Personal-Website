@@ -95,3 +95,61 @@ details[open] {
     transform: scale(1.05);
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
 }
+.skills-section {
+margin-top: 50px;
+text-align: center;
+}
+
+.skills-container {
+width: 60%;
+margin: auto;
+}
+
+.skill {
+margin: 15px 0;
+text-align: left;
+}
+
+.skill-bar {
+background-color: #333;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.skill-fill {
+height: 10px;
+width: 0;
+transition: width 1s ease-in-out;
+}
+.skills-section {
+margin-top: 50px;
+text-align: center;
+}
+
+.skills-row {
+margin: 20px auto;
+width: 80%;
+text-align: left;
+}
+
+.skills-list {
+display: flex;
+gap: 15px;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+
+.skills-list span {
+background-color: rgba(0,0,0,0.4);
+padding: 8px 15px;
+border-radius: 20px;
+transition: transform 0.2s ease;
+}
+
+.skills-list span:hover {
+transform: scale(1.1);
+}
+.skills-list span:hover {
+transform: scale(1.1);
+box-shadow: 0 0 10px rgba(0,191,255,0.6);
+}
