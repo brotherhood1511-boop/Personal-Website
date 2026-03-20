@@ -1,0 +1,30 @@
+header {
+    text-align: center;
+    padding: 2rem;
+}
+section {
+    padding: 2rem;
+}
+h2{
+    margin-bottom: 1rem;
+}
+p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+section div {
+    display: grid;
+    gap: 1rem;
+}
+section {
+    text-align: center;
+}
+section div {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 500px;
+}
+body {
+    background-color: #f4f4f4;
+}
