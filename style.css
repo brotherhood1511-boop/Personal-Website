@@ -153,3 +153,74 @@ transform: scale(1.1);
 transform: scale(1.1);
 box-shadow: 0 0 10px rgba(0,191,255,0.6);
 }
+
+section {
+    margin-top: 60px;
+}
+
+h2 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #00aaff;
+    margin: 10px auto 0;
+    border-radius: 2px;
+}
+
+.coming-soon {
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 40px;
+    font-style: italic; 
+}
+.tags {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+    flex-wrap: wrap;
+}
+.tags span {
+    background: rgba(0, 123, 255, 0.2);
+    color: #ffffff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.tags {
+    margin-top: 10px;
+}
+.tags span {
+transition: all 0.2s ease;
+}
+.tags span:hover {
+    background: #007bff;
+    transform: scale(1.05);
+}
+.project-card a {
+    display: block;
+    margin-top: 6px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.project-card {
+    transition: all 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 0 30px rgba(0, 123, 255, 0.6);
+}
