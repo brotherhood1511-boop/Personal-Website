@@ -15,3 +15,23 @@ entry.target.classList.contains('cyber') ? '65%' : '0';
 skills.forEach(skill => {
 skillsObserver.observe(skill);
 });
+
+const wrapper = document.querySelector(".timeline-wrapper");
+const track = document.querySelector(".timeline-track");
+
+let scrollX = 0;
+
+function autoScroll() {
+scrollX += 0.3;
+
+track.style.transform = `translateX(-${scrollX}px)`;
+
+// reset when fully scrolled
+if (scrollX > track.scrollWidth / 2) {
+scrollX = 0;
+}
+
+requestAnimationFrame(autoScroll);
+}
+
+autoScroll();
