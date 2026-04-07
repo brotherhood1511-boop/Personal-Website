@@ -319,3 +319,15 @@ scrollbar-width: none;
     padding: 0 !important;
     margin: 0 !important;
 }
+@media (max-width: 768px) {
+    .timeline-track {
+        animation: none;
+        transform: none !important;
+    }
+    .timeline-wrapper {
+        overflow-x: auto;
+    }
+    .timeline-item {
+        min-width: 85%;
+    }
+}
